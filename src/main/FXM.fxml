@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import com.gluonhq.charm.glisten.control.TextField?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="859.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField  layoutX="27.0" layoutY="565.0" prefHeight="44.0" prefWidth="819.0" />
+      onAction="#sendMessage"  xmlns:fx=""http://javafx.com/fxml/1" fx:controller="Cient"
+      <ListView layoutX="27.0" layoutY="30.0" prefHeight="528.0" prefWidth="819.0" />
+   </children>
+</AnchorPane>
